@@ -1,0 +1,14 @@
+Software Requirements
+
+Streamlit: For building the frontend of the application
+PyPDF2: For extracting text from PDF files
+Langchain: For preprocessing text data and generating embeddings
+OpenAI API: For generating embeddings
+Pinecone: For creating a database index and retrieving relevant documents
+dotenv: For setting up environment variables
+Environment Variables
+
+OPENAI_API_KEY: Your OpenAI API key
+PINECONE_API_KEY: Your Pinecone DB API key
+PINECONE_ENVIRONMENT: Your Pinecone DB environment (e.g., us-east-1)
+INDEX_NAME: The name of your Pinecone DB index (e.g., langchainvector)
